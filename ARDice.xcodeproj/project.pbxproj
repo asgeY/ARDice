@@ -15,6 +15,10 @@
 		D909481D221CE6CB006055E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D909481B221CE6CB006055E3 /* LaunchScreen.storyboard */; };
 		D9094828221CE6CB006055E3 /* ARDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9094827221CE6CB006055E3 /* ARDiceTests.swift */; };
 		D9094833221CE6CB006055E3 /* ARDiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9094832221CE6CB006055E3 /* ARDiceUITests.swift */; };
+		D9094843221D5143006055E3 /* sunglasses.png in Resources */ = {isa = PBXBuildFile; fileRef = D9094841221D5143006055E3 /* sunglasses.png */; };
+		D9094844221D5143006055E3 /* glasses.png in Resources */ = {isa = PBXBuildFile; fileRef = D9094842221D5143006055E3 /* glasses.png */; };
+		D9094846221D5273006055E3 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9094845221D5273006055E3 /* Grid.swift */; };
+		D9094848221D5298006055E3 /* Die.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9094847221D5298006055E3 /* Die.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		D909482E221CE6CB006055E3 /* ARDiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARDiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9094832221CE6CB006055E3 /* ARDiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDiceUITests.swift; sourceTree = "<group>"; };
 		D9094834221CE6CB006055E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9094841221D5143006055E3 /* sunglasses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sunglasses.png; path = ../../../ARDicee/ARDicee/images/sunglasses.png; sourceTree = "<group>"; };
+		D9094842221D5143006055E3 /* glasses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = glasses.png; path = ../../../ARDicee/ARDicee/images/glasses.png; sourceTree = "<group>"; };
+		D9094845221D5273006055E3 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		D9094847221D5298006055E3 /* Die.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Die.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,13 @@
 		D909480F221CE6C9006055E3 /* ARDice */ = {
 			isa = PBXGroup;
 			children = (
+				D9094840221D506F006055E3 /* images */,
 				D9094810221CE6C9006055E3 /* AppDelegate.swift */,
-				D9094812221CE6C9006055E3 /* art.scnassets */,
+				D9094845221D5273006055E3 /* Grid.swift */,
+				D9094847221D5298006055E3 /* Die.swift */,
 				D9094814221CE6C9006055E3 /* ViewController.swift */,
 				D9094816221CE6C9006055E3 /* Main.storyboard */,
+				D9094812221CE6C9006055E3 /* art.scnassets */,
 				D9094819221CE6CB006055E3 /* Assets.xcassets */,
 				D909481B221CE6CB006055E3 /* LaunchScreen.storyboard */,
 				D909481E221CE6CB006055E3 /* Info.plist */,
@@ -126,6 +137,15 @@
 				D9094834221CE6CB006055E3 /* Info.plist */,
 			);
 			path = ARDiceUITests;
+			sourceTree = "<group>";
+		};
+		D9094840221D506F006055E3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D9094842221D5143006055E3 /* glasses.png */,
+				D9094841221D5143006055E3 /* sunglasses.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +254,9 @@
 			files = (
 				D9094813221CE6C9006055E3 /* art.scnassets in Resources */,
 				D909481D221CE6CB006055E3 /* LaunchScreen.storyboard in Resources */,
+				D9094844221D5143006055E3 /* glasses.png in Resources */,
 				D909481A221CE6CB006055E3 /* Assets.xcassets in Resources */,
+				D9094843221D5143006055E3 /* sunglasses.png in Resources */,
 				D9094818221CE6C9006055E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +284,8 @@
 			files = (
 				D9094815221CE6C9006055E3 /* ViewController.swift in Sources */,
 				D9094811221CE6C9006055E3 /* AppDelegate.swift in Sources */,
+				D9094848221D5298006055E3 /* Die.swift in Sources */,
+				D9094846221D5273006055E3 /* Grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
